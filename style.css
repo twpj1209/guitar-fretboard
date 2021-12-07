@@ -89,14 +89,15 @@ label {
 
 .note-fret:before {
     content: attr(data-note);
-    height: 33px;
-    width: 33px;
+    height: 45px;
+    width: 45px;
     border-radius: 50%;
-    line-height: 33px;
+    line-height: 45px;
     text-align: center;
     background: teal;
     z-index: 2;
     color: white;
+    font-size: 25px;
     opacity: var(--note-dot-opacity);
 }
 

@@ -9,8 +9,8 @@ const showMultipleNotesSelector = document.querySelector('#show-multiple-notes')
 const singleFretMarkPosition = [3, 5, 7, 9, 15, 17, 19, 21];
 const doubleFretMarkPosition = [12, 24];
 
-const notesFlat = ['C', 'Db', 'D', 'Eb', 'E', 'F', 'Gb', 'G', 'Ab', 'A', 'Bb', 'B'];
-const notesSharp = ['C', 'C#', 'D', 'D#', 'E', 'F', 'F#', 'G', 'G#', 'A', 'A#', 'B'];
+const notesFlat = ['C', 'D♭', 'D', 'E♭', 'E', 'F', 'G♭', 'G', 'A♭', 'A', 'B♭', 'B'];
+const notesSharp = ['C', 'C♯', 'D', 'D♯', 'E', 'F', 'F♯', 'G', 'G♯', 'A', 'A♯', 'B'];
 
 let accidentals = 'flats';
 let allNotes;
