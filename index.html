@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Guitar Tutorial</title>
+</head>
+<body>
+    <div class="setting">
+        <label for="instrument-selector">Select Instrument:</label> 
+        <select name="instrument-selector" id="instrument-selector"> 
+        </select>
+
+        <div class="accidental-selector">
+            <input type="radio" class="acc-select" id="flats" name="accidentals" value="flats" checked>
+            <label for="flats">♭</label>
+            <input type="radio" class="acc-select" id="sharps" name="accidentals" value="sharps">
+            <label for="sharps">♯</label>
+        </div>
+    </div>
+    <div class="fretboard">
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
