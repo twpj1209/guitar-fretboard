@@ -44,8 +44,9 @@ label {
 .fretboard {
     display: flex; /* what is flex */
     flex-direction: column;
-    background: #be975b;
+    background: #be975b url(./images/wood-pattern.png);
     width: 100%;
+    min-width: 1500px;
     height: calc(var(--fretboard-height) * 1px);
     margin-top: 50px;
 }
@@ -117,10 +118,28 @@ label {
 
 .double-fretmark:before {
     top: calc(var(--double-fretmark-position-1) * 1px);
-    transform: translate(-140%, -50%);
+    transform: translate(-160%, -47%);
 }
 
 .double-fretmark:after {
     top: calc(var(--double-fretmark-position-2) * 1px);
-    transform: translate(-140%, -50%);
+    transform: translate(-160%, -47%);
+}
+
+.note-name-section {
+    width: 100%;
+    color: #282828;
+    font-weight: 500;
+    font-size: 2.5em;
+    display: flex;
+    justify-content: center;
+}
+
+.note-name-section span {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.note-name-section span:hover {
+    color: #00baba;
 }
